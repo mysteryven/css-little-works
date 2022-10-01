@@ -2,12 +2,12 @@ import { Outlet } from 'react-router-dom'
 import type { FC } from 'react'
 import React from 'react'
 
-const Component: FC = () => {
+const LoadingIcon: FC = () => {
   return (
     <div>
-      <p>drawer</p>
+      <p>loading</p>
     </div>
   )
 }
 
-export default Component
+export default LoadingIcon
