@@ -1,3 +1,3 @@
-# CSS Animation
+# CSS little works
 
-collect some css animation tricks.
+collect some css funny little works.

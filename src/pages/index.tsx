@@ -8,13 +8,13 @@ const Main: FC = () => {
   return (
     <div className="mainPanel">
       <div>
-        <div className="panelTitle">CSS Animation</div>
+        <div className="panelTitle">CSS Funny Works</div>
         <pre className="panelGrid">
           {
             works.map((item, index) => {
               return (
                 <Link to={item.name}  key={item.name} className="menuItem">
-                  <span>{index.toString().padStart(3, '0')}</span>
+                  <span>{(index + 1).toString().padStart(3, '0')}</span>
                   <b className="menuItemName">{item.name}</b>
                 </Link>
               )
