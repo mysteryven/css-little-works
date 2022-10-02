@@ -43,6 +43,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.menu-back {
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    color: #666;
+    font-size: 16px;
+    padding-left: 4px;
+
+    &:before {
+        content: '⬅️ '
+    }
 }
 
 .menu-container {

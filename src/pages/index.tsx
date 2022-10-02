@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import React from 'react'
 import works from '../works'
-import '../css/index.css'
+import '../css/index.scss'
 import { Link } from 'react-router-dom'
 
 const Main: FC = () => {
