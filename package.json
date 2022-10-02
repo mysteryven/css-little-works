@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "esno postBuild.js",
+    "build": "vite build && esno postBuild.js",
     "preview": "vite preview"
   },
   "keywords": [],
