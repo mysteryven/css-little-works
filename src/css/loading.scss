@@ -1,11 +1,13 @@
-
 @keyframes ven-rotate {
     0%{transform:rotate(0)}
 
     
-    to{transform:rotate(359deg)}
+    to{transform:rotate(358deg)}
 }
 
-.rotate-loop {
-    animation: ven-rotate 2s ease infinite;
+.card-loading {
+    .rotate-loop {
+        animation: ven-rotate 2.4s ease infinite;
+    }
 }
+

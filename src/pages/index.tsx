@@ -2,6 +2,7 @@ import type { FC } from 'react'
 import React from 'react'
 import works from '../works'
 import '../css/index.css'
+import { Link } from 'react-router-dom'
 
 const Main: FC = () => {
   return (
@@ -12,10 +13,10 @@ const Main: FC = () => {
           {
             works.map((item, index) => {
               return (
-                <div key={item.name} className="menuItem">
+                <Link to={item.name}  key={item.name} className="menuItem">
                   <span>{index.toString().padStart(3, '0')}</span>
                   <b className="menuItemName">{item.name}</b>
-                </div>
+                </Link>
               )
             })
           }

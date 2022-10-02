@@ -20,11 +20,13 @@
 .menuItem {
     color: #bbb;
     font-size: 18px;
-    cursor: pointer,
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .menuItem:hover {
-    color: '#999'
+    color: '#999';
+    text-decoration: underline;
 }
 
 .menuItemName {
@@ -37,5 +39,19 @@
 }
 
 
+.menu-container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    width: 560px;
+    height: 600px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 

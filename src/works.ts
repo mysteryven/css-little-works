@@ -1,6 +1,6 @@
 const info = [
     {
-        name: 'Drawer',
+        name: 'Loading',
         date: '2022/10/01'
     },
 ]
