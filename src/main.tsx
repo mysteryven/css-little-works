@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   useRoutes,
 } from 'react-router-dom'
+import 'uno.css'
 
 import routes from '~react-pages'
 
